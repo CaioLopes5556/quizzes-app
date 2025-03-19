@@ -1,0 +1,95 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: min(2rem, 2%) min(4rem,4%);
+}
+
+.home h1{
+    color: var(--main-color);
+    font-size: clamp(2.5rem, 15vw, 3.5rem);
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.home h3{
+    color: var(--main-color);
+    margin: 2rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.instructions{
+    list-style: none;
+    padding: min(2rem, 2%) min(4rem,4%);
+    border: 1px solid var(--main-color);
+    background: var(--glassmorphism-gradient);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 2rem;
+}
+
+.instructions h2{
+    color: var(--txt-color);
+    margin: .5rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.instructions p{
+    color: var(--txt-color);
+    margin: .5rem 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-left: .5rem;
+}
+
+.link-group{
+    margin: 2rem 0;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.card-link{
+    text-decoration: none;
+    color: var(--main-color);
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 18rem;
+    height: 18rem;
+    border: 1px solid var(--border-li-color);
+    box-shadow: var(--bx-shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-link img{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .7s ease-in-out;
+    z-index: 1;
+}
+
+.card-link:hover img{
+    width: 80%;
+}
+
+.card-link .quizz-tittle{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding: .1rem .3rem;
+    border-radius: .5rem;
+    background: var(--glassmorphism-gradient);
+    z-index: 2;
+}
+

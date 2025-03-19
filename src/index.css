@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  /* fonts */
+  font-size: 70.5%;
+
+  /* colors  */
+  --bg-home: #19222c;
+  --bg-pop-quizz: linear-gradient(
+    60deg,
+    #f0f356,
+    #7bf356,
+    #f35656,
+    #56e9f3
+  );
+  --bg-tech-quizz: linear-gradient(
+    60deg,
+    #21232c,
+    #3d4258,
+    #45576b,
+    #7fafb6
+  );
+  --bg-horror-quizz: linear-gradient(
+    60deg,
+    #2c2121,
+    #8d4747,
+    #6b4545,
+    #f08080
+  );
+
+  --glassmorphism-gradient: linear-gradient(
+    200deg,
+    rgba(255, 255, 255,0.3),
+    rgba(172, 172, 172, 0.3)
+  );
+
+  --main-color: #fff;
+  --txt-color: #000;
+  --border-li-color: #b3b3b3;
+  --btn-hover: #181818;
+  --bx-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--bg-home) ;
+  background-size: cover;
+  height: 100dvh;
+
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+.pop-quizz{
+  background:var(--bg-pop-quizz);
+}
+.tech-quizz{
+  background:var(--bg-tech-quizz);
+}
+.horror-quizz{
+  background:var(--bg-horror-quizz);
+}
