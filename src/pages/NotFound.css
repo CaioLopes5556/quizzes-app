@@ -1,0 +1,7 @@
+.not-found h1{
+    font-size: clamp(4rem, 20vw, 6rem);
+}
+
+.not-found{
+    color: var(--main-color);
+}
