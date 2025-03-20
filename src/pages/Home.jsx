@@ -1,9 +1,13 @@
+//hooks
 import { NavLink } from 'react-router-dom'
 import React from 'react'
+
+//images
 import popImg from '../assets/img/pop-img.png'
 import techImg from '../assets/img/wd-img.png'
 import horrorImg from '../assets/img/horror-img.png'
 
+//styles
 import './Home.css'
 
 const Home = ({bg}) => {

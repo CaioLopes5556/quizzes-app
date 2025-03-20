@@ -1,5 +1,11 @@
+//hooks
 import { NavLink } from 'react-router-dom'
 import { useRef, useState } from 'react'
+
+//images
+import winnerGif from '../assets/img/winner.gif'
+
+//styles
 import './Quizz.css'
 
 const Quizz = ({QuizzArray, Tittle,changeBg,bg}) => {
@@ -109,7 +115,7 @@ const Quizz = ({QuizzArray, Tittle,changeBg,bg}) => {
         {
         totalScore === score &&
         <div className='winner-gif'>
-            <img src="/winner.gif" alt="gif de vitória" />
+            <img src={winnerGif} alt="gif de vitória" />
         </div>
         }
 

@@ -1,5 +1,6 @@
 //hooks
 import { BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom'
+
 //styles
 import './App.css'
 //components
