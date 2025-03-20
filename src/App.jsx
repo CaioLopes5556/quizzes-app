@@ -1,5 +1,5 @@
 //hooks
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom'
 //styles
 import './App.css'
 //components
@@ -21,7 +21,7 @@ function App() {
  
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
           <Route 
           path='/' 
@@ -59,7 +59,7 @@ function App() {
           />
 
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
